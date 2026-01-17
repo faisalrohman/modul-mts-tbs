@@ -62,7 +62,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onReset, onNavigate, currentView
               onClick={() => onNavigate('about')}
               className={`text-sm font-medium transition-colors ${currentView === 'about' ? 'text-brand-600 font-bold' : 'text-slate-600 hover:text-brand-600'}`}
             >
-              Tentang Kami
+              Developer
             </button>
             <button 
                onClick={() => onNavigate('help')}
