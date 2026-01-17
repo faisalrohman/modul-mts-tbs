@@ -13,7 +13,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onReset, onNavigate, currentView
     { id: 'home', label: 'Beranda', icon: <Home size={20} />, action: () => { onNavigate('home'); onReset(); } },
     { id: 'history', label: 'Riwayat', icon: <History size={20} />, action: () => onNavigate('history') },
     { id: 'help', label: 'API Key', icon: <Key size={20} />, action: () => onNavigate('help') },
-    { id: 'about', label: 'Profil', icon: <User size={20} />, action: () => onNavigate('about') },
+    { id: 'about', label: 'Developer', icon: <User size={20} />, action: () => onNavigate('about') },
     { id: 'admin', label: 'Admin', icon: <Settings size={20} />, action: () => onNavigate('admin') },
   ];
 
@@ -34,7 +34,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onReset, onNavigate, currentView
             </div>
             <div className="flex flex-col">
               <span className="font-serif font-bold text-xl leading-none text-slate-800 tracking-tight">
-                AI Teman Guru
+                AI Hanyauntukmu
               </span>
               <span className="text-[10px] font-medium text-brand-600 tracking-wider uppercase">
                 Teaching Assistant
